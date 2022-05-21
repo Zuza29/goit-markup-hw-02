@@ -6,3 +6,23 @@
     --blue: #2196F3;
 }
 
+.header {
+    background-color: #FFF;
+}
+
+.header a:hover {
+    color: var(--blue);
+}
+
+.header li>a {
+    color: var(--grey);
+}
+
+.logo-blue {
+    color: var(--blue);
+}
+
+.logo-black {
+    color: var(--text-black);
+}
+
