@@ -26,3 +26,13 @@
     color: var(--text-black);
 }
 
+.main-page-top {
+    background-color: var(--black);
+    color: #FFF;
+}
+
+.main-page-top button {
+    background-color: var(--blue);
+    color: #FFF;
+    border-radius: 4px;
+}
