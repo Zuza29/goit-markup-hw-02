@@ -22,7 +22,9 @@ body {
 .header a {
     text-decoration: none;
 }
-.header a:hover, .header a:focus {
+.header a:hover, 
+.header a:focus, 
+.header a:visited {
     color: var(--blue);
 }
 
@@ -52,6 +54,7 @@ body {
 }
 
 .header nav {
+    color: var(--text-black);
     font-weight: 500;
 }
 
