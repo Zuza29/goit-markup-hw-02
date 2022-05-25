@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <link href="css/styles.css" rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -24,23 +25,23 @@
           <li>Kontakt</li>
         </ul>
       </nav>
-      <ul class="header-contact">
+      <ul>
         <li>
-          <a href="mailto:info@devstudio.com"
+          <a href="mailto:info@devstudio.com" class="header-contact"
             >info@devstudio.com</a
           >
         </li>
         <li>
-          <a href="tel:+48111111111">+48 111 111 111</a>
+          <a href="tel:+48111111111" class="header-contact">+48 111 111 111</a>
         </li>
       </ul>
     </header>
     <main>
-      <div class="main-page-top">
+      <section class="main-page-top">
         <h1>Efektywne rozwiązania dla waszego biznesu</h1>
         <button type="button">Zamów usługę</button>
-      </div>
-      <div class="main-page-mid-1">
+      </section>
+      <section class="main-page-mid-1">
         <ul>
           <li><h1>Lorem ipsum</h1></li>
           <li>
@@ -63,8 +64,8 @@
             arcu sem. Sed non sodales dui. Interdum et malesuada
           </li>
         </ul>
-      </div>
-      <div>
+      </section>
+      <section class="main-page-mid-1">
         <h2>Czym się zajmujemy</h2>
         <img
           src="images/1.jpg"
@@ -84,10 +85,10 @@
           width="370"
           height="294"
         />
-      </div>
-      <div class="main-page-mid-2">
+      </section>
+      <section class="main-page-mid-2">
         <h2>Nasz zespół</h2>
-        <figure>
+        <figure class="team-card">
           <img
             src="images/4.jpg"
             alt="Portrait of employee 1"
@@ -99,7 +100,7 @@
             Product Designer
           </figcaption>
         </figure>
-        <figure>
+        <figure class="team-card">
           <img
             src="images/5.jpg"
             alt="Portrait of employee 2"
@@ -111,7 +112,7 @@
             Frontend Developer
           </figcaption>
         </figure>
-        <figure>
+        <figure class="team-card">
           <img
             src="images/6.jpg"
             alt="Portrait of employee 3"
@@ -123,7 +124,7 @@
             Marketing
           </figcaption>
         </figure>
-        <figure>
+        <figure class="team-card">
           <img
             src="images/7.jpg"
             alt="Portrait of employee 4"
@@ -135,12 +136,11 @@
             UI Designer
           </figcaption>
         </figure>
-      </div>
+      </section>
     </main>
     <footer class="footer">
       <address>
-        <span class="logo logo-blue">Web</span
-        ><span class="logo logo-white">Studio</span><br />
+        <span class="logo logo-blue">Web</span><span class="logo logo-white">Studio</span><br />
         <span class="address-street">m. Warszawa, Aleje Jerozolimskie 21</span
         ><br />
         <a href="mailto:info@devstudio.com" class="contact-bottom"
