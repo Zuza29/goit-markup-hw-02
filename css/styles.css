@@ -4,20 +4,11 @@
   --text-grey: #757575;
   --text-black: #212121;
   --blue: #2196f3;
-  --border: #ececec;
-}
-
-* {
-  margin: 0%;
 }
 
 body {
   color: var(--text-black);
   font-family: "Roboto", "sans-serif";
-}
-
-ul {
-  list-style-type: none;
 }
 
 .header {
@@ -26,21 +17,22 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  border-bottom: 1px solid var(--border);
 }
 
 .header a {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 .header nav a {
   text-decoration: none;
   color: inherit;
 }
 
+=======
+>>>>>>> parent of c5d0384 (Updated from hw-03)
 .header a:hover,
-.header a:focus,
-.header a:visited {
+.header a:focus {
   color: var(--blue);
 }
 
@@ -65,12 +57,16 @@ ul {
   color: #fff;
 }
 
+.header ul {
+  list-style-type: none;
+}
+
 .header nav {
   color: var(--text-black);
   font-weight: 500;
 }
 
-.header-contact {
+.header-contact a {
   color: var(--text-grey);
 }
 
@@ -93,7 +89,6 @@ ul {
   font-size: 16px;
   cursor: pointer;
   line-height: 1.87;
-  border: none;
 }
 
 .main-page-mid-1 {
@@ -113,7 +108,6 @@ ul {
   color: var(--text-black);
   font-weight: 700;
   text-transform: uppercase;
-  margin: 0;
 }
 
 .main-page-mid-2 {
@@ -137,8 +131,6 @@ ul {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.6;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .footer,
@@ -157,16 +149,15 @@ ul {
 }
 
 .button-list button {
-  background-color: var(--grey);
-  border-radius: 4px;
-  font-weight: 500;
-  font-size: 16px;
-  border-style: none;
-  font-family: inherit;
-  cursor: pointer;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-  border: none;
+    background-color: var(--grey);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    border-style: none;
+    font-family: inherit;
+    cursor: pointer;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
 }
 
 .button-list button:focus,
@@ -189,18 +180,4 @@ ul {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-}
-
-.team-card {
-  background-color: #fff;
-  width: 270px;
-  height: 368px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-  text-align: center;
-}
-
-.container {
-  width: 1200px;
 }
