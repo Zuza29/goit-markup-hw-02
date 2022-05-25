@@ -25,8 +25,7 @@ body {
 }
 
 .header a:hover,
-.header a:focus,
-.header a:visited {
+.header a:focus {
   color: var(--blue);
 }
 
@@ -60,7 +59,7 @@ body {
   font-weight: 500;
 }
 
-.header-contact {
+.header-contact a {
   color: var(--text-grey);
 }
 
