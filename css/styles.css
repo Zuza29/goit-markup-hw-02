@@ -39,7 +39,8 @@ ul {
 }
 
 .header a:hover,
-.header a:focus {
+.header a:focus,
+.header a:visited {
   color: var(--blue);
 }
 
@@ -69,7 +70,7 @@ ul {
   font-weight: 500;
 }
 
-.header-contact a {
+.header-contact {
   color: var(--text-grey);
 }
 
